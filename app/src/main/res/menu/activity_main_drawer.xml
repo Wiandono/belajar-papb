@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Daftar Materi">
+        <menu>
+            <item
+                android:id="@+id/nav_bab1"
+                android:icon="@drawable/ic_menu_android"
+                android:title="Android" />
+            <item
+                android:id="@+id/nav_bab2"
+                android:icon="@drawable/ic_menu_ui"
+                android:title="User Interface" />
+            <item
+                android:id="@+id/nav_bab3"
+                android:icon="@drawable/ic_menu_activity"
+                android:title="Activity" />
+            <item
+                android:id="@+id/nav_bab4"
+                android:icon="@drawable/ic_menu_event"
+                android:title="Event Handler" />
+            <item
+                android:id="@+id/nav_bab5"
+                android:icon="@drawable/ic_menu_intent"
+                android:title="Intent" />
+            <item
+                android:id="@+id/nav_bab6"
+                android:icon="@drawable/ic_menu_recycler"
+                android:title="Recycler View" />
+            <item
+                android:id="@+id/nav_bab7"
+                android:icon="@drawable/ic_menu_thread"
+                android:title="Thread" />
+            <item
+                android:id="@+id/nav_bab8"
+                android:icon="@drawable/ic_menu_notification"
+                android:title="Notification" />
+            <item
+                android:id="@+id/nav_bab9"
+                android:icon="@drawable/ic_menu_fragment"
+                android:title="Fragment" />
+            <item
+                android:id="@+id/nav_bab10"
+                android:icon="@drawable/ic_menu_shared"
+                android:title="Shared Preferences" />
+        </menu>
+    </item>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
