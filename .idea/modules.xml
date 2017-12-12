@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BelajarPAPB.iml" filepath="$PROJECT_DIR$/BelajarPAPB.iml" />
+      <module fileurl="file://C:\Users\Asus\AndroidStudioProjects\Project PAPB\belajarPAPB\BelajarPAPB.iml" filepath="C:\Users\Asus\AndroidStudioProjects\Project PAPB\belajarPAPB\BelajarPAPB.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Asus\AndroidStudioProjects\Project PAPB\belajarPAPB\app\app.iml" filepath="C:\Users\Asus\AndroidStudioProjects\Project PAPB\belajarPAPB\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajarPAPB.iml" filepath="$PROJECT_DIR$/belajarPAPB.iml" />
     </modules>
   </component>
 </project>
