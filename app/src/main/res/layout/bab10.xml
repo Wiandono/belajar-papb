@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Fragment"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:id="@+id/dividerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorGrey"
+        android:orientation="vertical"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_below="@+id/dividerTitle"
+        android:src="@drawable/bab10"/>
+
+    <TextView
+        android:id="@+id/materi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foto"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:text="Fragment adalah bagian dari sebuah activity yang modular dan fleksibel. Dalam satu activity, dapat dimasukkan fragment lebih dari satu
+Fragmetn dapat digunakan berkali-kali dengan fragment lain dan membuat satu activity dengan gabungan fragment lain. Salah satu kegunaan dari fragment adalah membuat layout activity yang berbeda ketikaa menggunakan smartphone atau tablet.
+Layar tablet yang lebih besar memungkinkan activity dibuat dengan menampilkan dua fragment sekaligus." />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/materi"
+        android:layout_centerHorizontal="true"
+        android:text="Contoh Program" />
+
+</RelativeLayout>

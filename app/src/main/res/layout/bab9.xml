@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Notification"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:id="@+id/dividerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorGrey"
+        android:orientation="vertical"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_below="@+id/dividerTitle"
+        android:src="@drawable/bab9"/>
+
+    <TextView
+        android:id="@+id/materi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foto"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:text="Notification adalah pesan yang ditampilkan ke user di luar tampilan aplikasi. Notifikasi akan ditampilkan
+pada 'notification drawer'. Beberapa hal yang harus bisa dilakukan notifikasi adalah sebagai berikut, melakukan beberapa fungsi yang ada pada aplikasi
+menjalankan aplikasi ketika notification di pencet. Notification sendiri memiliki tingkat prioritas yang berbeda-beda. Tingkat prioritas ini digunakan untuk mengurutkan notifikasi dari yang paling penting di letakkan di paling atas pada notification drawer
+prioritas paling tinggi diberikan kepada notifikasi yang sensitif terhadap waktu.kemudian prioritas kedua umumnya diberikan pada notifikasi chat dan email. Setelah ini prioritas notifikasi adalah notifikasi update software dan junkmail" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/materi"
+        android:layout_centerHorizontal="true"
+        android:text="Contoh Program" />
+
+</RelativeLayout>

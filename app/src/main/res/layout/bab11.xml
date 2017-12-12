@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Shared Prefrences Setting UI"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:id="@+id/dividerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorGrey"
+        android:orientation="vertical"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_below="@+id/dividerTitle"
+        android:src="@drawable/bab11"/>
+
+    <TextView
+        android:id="@+id/materi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foto"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:text="Shared Preferences adalah fungsi android untuk membaca dan menulis primitive data dengan ukuran yang sangat kecil sebagai key/value pairs pada sebuah file pada storage device.
+Data yang dibuat oleh ini di setting Private untuk aplikasinya. Digunakan untuk menyimpan state terakhir aplikasi ketika aplikasi ru jalankan kembali. Setting digunakan untuk memilih fitur dan perilaku sebuah app sesuai dengan kebutuhan dan keinginan user
+" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/materi"
+        android:layout_centerHorizontal="true"
+        android:text="Contoh Program" />
+
+</RelativeLayout>
