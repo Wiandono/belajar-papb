@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="onex7.belajarpapb.MrPotato">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/title"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/ivArms"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:contentDescription="@string/arms"
+        android:src="@drawable/arms"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivBody"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/body"
+        android:src="@drawable/body" />
+
+    <ImageView
+        android:id="@+id/ivHat"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/hat"
+        android:src="@drawable/hat"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivEars"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/ears"
+        android:src="@drawable/ears"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivEyes"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:contentDescription="@string/eyes"
+        android:src="@drawable/eyes"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivMouth"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:contentDescription="@string/mouth"
+        android:src="@drawable/mouth"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivMustache"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:contentDescription="@string/mustache"
+        android:src="@drawable/mustache"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivNose"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:contentDescription="@string/nose"
+        android:src="@drawable/nose"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivEyebrows"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/eyebrows"
+        android:src="@drawable/eyebrows"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivGlasses"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:contentDescription="@string/glasses"
+        android:src="@drawable/glasses"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivShoes"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/shoes"
+        android:src="@drawable/shoes"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivShoes"
+        android:layout_centerHorizontal="true"
+        android:text="@string/instruction" />
+
+    <CheckBox
+        android:id="@+id/cbHat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInstruction"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/hat" />
+
+    <CheckBox
+        android:id="@+id/cbEyebrows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbHat"
+        android:layout_marginStart="70dp"
+        android:text="@string/eyebrows" />
+
+    <CheckBox
+        android:id="@+id/cbNose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbEyebrows"
+        android:layout_marginStart="70dp"
+        android:text="@string/nose" />
+
+    <CheckBox
+        android:id="@+id/cbMustache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbNose"
+        android:layout_marginStart="70dp"
+        android:text="@string/mustache" />
+
+    <CheckBox
+        android:id="@+id/cbArms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbMustache"
+        android:layout_marginStart="70dp"
+        android:text="@string/arms" />
+
+    <CheckBox
+        android:id="@+id/cbEyes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInstruction"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/cbHat"
+        android:text="@string/eyes" />
+
+    <CheckBox
+        android:id="@+id/cbGlasses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbEyes"
+        android:layout_marginStart="80dp"
+        android:layout_toEndOf="@+id/cbHat"
+        android:text="@string/glasses" />
+
+    <CheckBox
+        android:id="@+id/cbMouth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbGlasses"
+        android:layout_marginStart="80dp"
+        android:layout_toEndOf="@+id/cbHat"
+        android:text="@string/mouth" />
+
+    <CheckBox
+        android:id="@+id/cbEars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbMouth"
+        android:layout_marginStart="80dp"
+        android:layout_toEndOf="@+id/cbHat"
+        android:text="@string/ears" />
+
+    <CheckBox
+        android:id="@+id/cbShoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbEars"
+        android:layout_marginStart="80dp"
+        android:layout_toEndOf="@+id/cbHat"
+        android:text="@string/shoes" />
+
+</RelativeLayout>

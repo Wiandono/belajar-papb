@@ -5,4 +5,39 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string-array name="jabatan_array">
+        <item>Mahasiswa</item>
+        <item>Dosen</item>
+        <item>Karyawan</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string name="title">Mr. Potato Head</string>
+    <string name="body">Body</string>
+    <string name="instruction">Click this part to add/remove them!</string>
+    <string name="hat">Hat</string>
+    <string name="eyebrows">Eyebrows</string>
+    <string name="nose">Nose</string>
+    <string name="mustache">Mustache</string>
+    <string name="arms">Arms</string>
+    <string name="eyes">Eyes</string>
+    <string name="glasses">Glasses</string>
+    <string name="mouth">Mouth</string>
+    <string name="ears">Ears</string>
+    <string name="shoes">Shoes</string>
+    <string name="bab1">Android adalah sebuah sistem operasi untuk perangkat mobile berbasis linux yang mencakup sistem operasi middleware dan aplikasi.\n\nJenis Mobile App dibagi menjadi 3 yaitu Native App, Web-based App, dan Hybrid App\n\nMenggunakan linux kernel untuk menyediakan core system services :\n- Security\n- Memory management\n- Process management\n- Power management\n- Hardware drivers\n\nAndroid Menggunakan Development tools Android SDK dan Android Debug Bridge (ADB) serta menggunakan DVM dan ART untuk menjalankan android tersebut</string>
+    <string name="bab2">Setiap komponen yang kamu lihat di dalam Android disebut sebagai view. Komponen ini memiliki properti yang dapat mengatur bagaimana view nantinya ditampilkan, seperti warna latar belakang, ukuran besar, letak, dll. Setiap view juga bisa merespon pada event atau aktifitas yang dilakukan oleh pengguna seperti ketika pengguna melakukan aktifitas klik.\n\nDalam view Group terdapat beberapa Layout utama yang sering digunakan oleh para developer android, yaitu :\n- LinearLayout\n- RelativeLayout\n- FrameLayout\n- GridLayout</string>
+    <string name="bab3">Activity adalah sebuah tempat dimana user dapat melakukan aktifitasnya. Setiap user pasti melakukan setiap interaksinya di dalam sebuah activity , dan activity lah yang akan bertanggung jawab untuk membuat jendela UI.\n\nDalam Activity android memeiliki beberapa state untuk menjalankan proses yaitu :\n- State Active/Running (keadaan dimana proses app masih dijalankan)\n- State Paused (keadaan dimana proses app dihentikan untuk sementara tetapi masih visible)\n- State Stopped (Keadaan dimana proses app telah dihentikan dan sudah tampah tetapi masih berjalan pada background process)\n- State Killed/destroyed (Keadaaan dimana proses app benar-benar telah dihentikan)</string>
+    <string name="bab4">Pada Bab ini akan mempelajari tentang penggunaan event handling pada android studio. Pada setiap feature dan widget seperti button pada android memiliki sebuah fungsi yang akan menghandle aktivitas button tersebut, disitu kita menggunakan event handler.\n\nUntuk menginisialisasi sebuah event pada widget tertentu dapat menggunakan beberapa method seperti :\n- View.OnClickListener()\n- View.OnTouchListener()\n- View.OnKeyListener()\n- etc</string>
+    <string name="bab5">Pada bab ini akan mempelajari penggunaan intent pada pemrograman android. Intent berfungsi untuk mengirimkan proses activity dari layout 1 ke layout laiinnya. intent dibagi menjadi 2 macam, intent implicit (memanggil activity yang ada di internal android) dan explicit (memanggil activity dari external andorid atau beda project.\n\nUntuk mengeinisialisasi sebuah intent digunakan syntax :\n\nIntent myActivity = new Intent (action, data);\nstartActivity(myActivity);</string>
+    <string name="bab6">Pada Bab ini akan mempelajari penggunaan Recycler pada android studio. Recycler view merupakan komponen tampilan atau widget untuk menampilkan dataset secara rapih dan bisa dalam jumlah yang besar serta dinamis. Untuk menggunakan Recyclerview secara dinamis diperlukan komponen adapter sebagai pengatur jalan proses Recyclerview.\n\nDalam RecyclerView menggunakan beberapa component :\n- Data\n- RecyclerView (Scrolling list for list items)\n- RowView (layout untuk 1 item data (xml file))\n- Layout manager (menghandle organisasi dari komponen UI dalam view Recyclerview.LayoutManager)\n- Adapter (menghubungkan data ke Recyclerview)\n- View Holder (memiliki informasi untuk menampilkan 1 item Recyclerview.viewHolder)</string>
+    <string name="bab7">Pada Bab ini akan mempelajari tentang penggunaan Thread pada android studio. Thread merupakan jaringan proses untuk mengelola setiap aktivitas pada program android. Dengan menggunakan lebih dari satu thread proses aktivitas dapat berjalan jauh lebih cepat dari proses normal.\n\nTedapat 2 cara untuk menjalankan sebuah code dalam sebuah thread baru :\n- meng override method run() dari subclass thread\n- membangun thread baru dan menyalurkan sebuah param yang dapat dijalankan ke constructor\n\nUntuk mengelola manajemen thread dapat menggunakan sebuah AsyncTask agar proses thread dapat berjalan lebih lancar. \n\nTerdapat 3 proses yang dijalankan pada android thread jika AsyncTast dijalankan :\n- onPreExecute() (proses berjalan pada Thread (UI) utama)\n- doInBackground() (proses berjalan pada background (UI) thread)\n- onPostExecute() (proses berjalan pada Thread (UI) utama.</string>
+    <string name="bab8">Notification adalah pesan yang ditampilkan ke user di luar tampilan aplikasi. Notifikasi akan ditampilkan pada "notification drawer". Beberapa hal yang harus bisa dilakukan notifikasi adalah sebagai berikut, melakukan beberapa fungsi yang ada pada aplikasi menjalankan aplikasi ketika notification di pencet. Notification sendiri memiliki tingkat prioritas yang berbeda-beda. Tingkat prioritas ini digunakan untuk mengurutkan notifikasi dari yang paling penting di letakkan di paling atas pada notification drawer prioritas paling tinggi diberikan kepada notifikasi yang sensitif terhadap waktu.kemudian prioritas kedua umumnya diberikan pada notifikasi chat dan email. Setelah ini prioritas notifikasi adalah notifikasi update software dan junkmail</string>
+    <string name="bab9">Fragment adalah bagian dari sebuah activity yang modular dan fleksibel. Dalam satu activity, dapat dimasukkan fragment lebih dari satu Fragmetn dapat digunakan berkali-kali dengan fragment lain dan membuat satu activity dengan gabungan fragment lain. Salah satu kegunaan dari fragment adalah membuat layout activity yang berbeda ketikaa menggunakan smartphone atau tablet. Layar tablet yang lebih besar memungkinkan activity dibuat dengan menampilkan dua fragment sekaligus.</string>
+    <string name="bab10">Shared Preferences adalah fungsi android untuk membaca dan menulis primitive data dengan ukuran yang sangat kecil sebagai key/value pairs pada sebuah file pada storage device.Data yang dibuat oleh ini di setting Private untuk aplikasinya. Digunakan untuk menyimpan state terakhir aplikasi ketika aplikasi ru jalankan kembali. Setting digunakan untuk memilih fitur dan perilaku sebuah app sesuai dengan kebutuhan dan keinginan user
+</string>
+
 </resources>

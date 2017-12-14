@@ -8,18 +8,83 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/filkom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/filkom" />
+
+        <TextView
+            android:id="@+id/developed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/filkom"
+            android:layout_centerHorizontal="true"
+            android:text="Developed By"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:id="@+id/radit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/developed"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="155150200111088 - Rakha Hasan Pramudito" />
+
+        <TextView
+            android:id="@+id/yoga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radit"
+            android:layout_centerHorizontal="true"
+            android:text="155150200111102 - I Ketut S Yogatama" />
+
+        <TextView
+            android:id="@+id/wian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/yoga"
+            android:layout_centerHorizontal="true"
+            android:text="155150201111111 - Wiandono Saputro" />
+
+        <TextView
+            android:id="@+id/tommy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wian"
+            android:layout_centerHorizontal="true"
+            android:text="155150207111051 - M Wahyu Hutomo Aji" />
+
+        <TextView
+            android:id="@+id/zul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tommy"
+            android:layout_centerHorizontal="true"
+            android:text="155150207111056 - Zulfikar Faras Fadila" />
+
+    </RelativeLayout>
+
     <include
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <android.support.design.widget.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_main"
-        app:menu="@menu/activity_main_drawer" />
+    android:id="@+id/nav_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    app:headerLayout="@layout/nav_header_main"
+    app:menu="@menu/activity_main_drawer" />
+
 
 </android.support.v4.widget.DrawerLayout>

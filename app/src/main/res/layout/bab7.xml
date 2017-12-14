@@ -2,53 +2,63 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorWhite"
     android:isScrollContainer="true">
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:text="RecyclerView, Collection, Adapter"
-        android:textSize="25dp" />
-
-    <LinearLayout
-        android:id="@+id/dividerTitle"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_below="@+id/title"
-        android:layout_marginBottom="10dp"
-        android:background="@color/colorGrey"
-        android:orientation="vertical"></LinearLayout>
+        android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/foto"
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
-        android:layout_below="@+id/dividerTitle"
-        android:src="@drawable/Recycler"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/materi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/foto"
-        android:layout_marginEnd="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="10dp"
-        android:text="Pada Bab ini akan mempelajari penggunaan Recycler pada
-android studio. Recycler view merupakan komponen tampilan atau widget untuk menampilkan dataset secara
-rapih dan bisa dalam jumlah yang besar serta dinamis. Untuk menggunakan Recyclerview secara dinamis
-diperlukan komponen adapter sebagai pengatur jalan proses Recyclerview." />
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Thread"
+                android:textSize="25dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/materi"
-        android:layout_centerHorizontal="true"
-        android:text="Contoh Program" />
+            <LinearLayout
+                android:id="@+id/dividerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/title"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorGrey"
+                android:orientation="vertical"></LinearLayout>
+
+            <ImageView
+                android:id="@+id/foto"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_below="@+id/dividerTitle"
+                android:src="@drawable/thread" />
+
+            <TextView
+                android:id="@+id/materi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/foto"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/bab7" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/materi"
+                android:layout_centerHorizontal="true"
+                android:text="Contoh Program" />
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

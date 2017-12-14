@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="onex7.belajarpapb.UserInterface">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/profile_picture" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@+id/profile"
+            android:backgroundTint="#000"
+            android:hint="Name"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/button_browse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/profile"
+            android:drawableStart="@drawable/ic_browse"
+            android:text=" Browse" />
+
+        <Button
+            android:id="@+id/button_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/button_browse"
+            android:drawableStart="@drawable/ic_change"
+            android:text=" Change" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/layout1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFF"
+        android:orientation="horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Username"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/semicolon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/username"
+            android:text=":"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/field_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/semicolon1"
+            android:backgroundTint="#000"
+            android:hint="Username"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/jabatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Jabatan"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/semicolon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/semicolon1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/username"
+            android:text=":"
+            android:textColor="#000" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/field_username"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@+id/semicolon2"
+            android:backgroundTint="#000"/>
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jabatan"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Gender"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/semicolon3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/semicolon2"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/username"
+            android:text=":"
+            android:textColor="#000" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/semicolon3"
+            android:backgroundTint="#000"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gender"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Email"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/semicolon4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/semicolon3"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/username"
+            android:text=":"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/field_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner2"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/semicolon4"
+            android:backgroundTint="#000"
+            android:hint="company@domain.com"
+            android:textColor="#000" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:drawableStart="@drawable/ic_save"
+        android:text=" Save" />
+
+</RelativeLayout>
