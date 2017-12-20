@@ -6,4 +6,9 @@
     <color name="colorGrey">#D8D8D8</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBackground">#DCDCDC</color>
+
+    <color name="red_background">#CC0000</color>
+    <color name="blue_background">#0099CC</color>
+    <color name="green_background">#669900</color>
+    <color name="default_background">#E0E0E0</color>
 </resources>

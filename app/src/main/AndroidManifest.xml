@@ -21,24 +21,25 @@
         </activity>
         <activity
             android:name=".UserInterface"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:label="Contoh User Interface"/>
         <activity
             android:name=".MrPotato"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:label="Contoh Event Handler"/>
         <activity
             android:name=".RecyclerView"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:label="Contoh Recycler View"/>
         <activity
             android:name=".Thread"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:label="Contoh Thread"/>
         <activity
             android:name=".Fragment"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:label="Contoh Fragment"/>
+        <activity
+            android:name=".Notification"
+            android:label="Contoh Notification"/>
+        <activity
+            android:name=".SharedPreferences"
+            android:label="Contoh Shared Preferences"/>
     </application>
 
 </manifest>

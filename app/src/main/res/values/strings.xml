@@ -37,7 +37,34 @@
     <string name="bab7">Pada Bab ini akan mempelajari tentang penggunaan Thread pada android studio. Thread merupakan jaringan proses untuk mengelola setiap aktivitas pada program android. Dengan menggunakan lebih dari satu thread proses aktivitas dapat berjalan jauh lebih cepat dari proses normal.\n\nTedapat 2 cara untuk menjalankan sebuah code dalam sebuah thread baru :\n- meng override method run() dari subclass thread\n- membangun thread baru dan menyalurkan sebuah param yang dapat dijalankan ke constructor\n\nUntuk mengelola manajemen thread dapat menggunakan sebuah AsyncTask agar proses thread dapat berjalan lebih lancar. \n\nTerdapat 3 proses yang dijalankan pada android thread jika AsyncTast dijalankan :\n- onPreExecute() (proses berjalan pada Thread (UI) utama)\n- doInBackground() (proses berjalan pada background (UI) thread)\n- onPostExecute() (proses berjalan pada Thread (UI) utama.</string>
     <string name="bab8">Notification adalah pesan yang ditampilkan ke user di luar tampilan aplikasi. Notifikasi akan ditampilkan pada "notification drawer". Beberapa hal yang harus bisa dilakukan notifikasi adalah sebagai berikut, melakukan beberapa fungsi yang ada pada aplikasi menjalankan aplikasi ketika notification di pencet. Notification sendiri memiliki tingkat prioritas yang berbeda-beda. Tingkat prioritas ini digunakan untuk mengurutkan notifikasi dari yang paling penting di letakkan di paling atas pada notification drawer prioritas paling tinggi diberikan kepada notifikasi yang sensitif terhadap waktu.kemudian prioritas kedua umumnya diberikan pada notifikasi chat dan email. Setelah ini prioritas notifikasi adalah notifikasi update software dan junkmail</string>
     <string name="bab9">Fragment adalah bagian dari sebuah activity yang modular dan fleksibel. Dalam satu activity, dapat dimasukkan fragment lebih dari satu Fragmetn dapat digunakan berkali-kali dengan fragment lain dan membuat satu activity dengan gabungan fragment lain. Salah satu kegunaan dari fragment adalah membuat layout activity yang berbeda ketikaa menggunakan smartphone atau tablet. Layar tablet yang lebih besar memungkinkan activity dibuat dengan menampilkan dua fragment sekaligus.</string>
-    <string name="bab10">Shared Preferences adalah fungsi android untuk membaca dan menulis primitive data dengan ukuran yang sangat kecil sebagai key/value pairs pada sebuah file pada storage device.Data yang dibuat oleh ini di setting Private untuk aplikasinya. Digunakan untuk menyimpan state terakhir aplikasi ketika aplikasi ru jalankan kembali. Setting digunakan untuk memilih fitur dan perilaku sebuah app sesuai dengan kebutuhan dan keinginan user
-</string>
+    <string name="bab10">Shared Preferences adalah fungsi android untuk membaca dan menulis primitive data dengan ukuran yang sangat kecil sebagai key/value pairs pada sebuah file pada storage device.Data yang dibuat oleh ini di setting Private untuk aplikasinya. Digunakan untuk menyimpan state terakhir aplikasi ketika aplikasi ru jalankan kembali. Setting digunakan untuk memilih fitur dan perilaku sebuah app sesuai dengan kebutuhan dan keinginan user</string>
+    <string name="notification_title">You\'ve been notified!</string>
+    <string name="notification_text">This is your notification text.</string>
+    <string name="learn_more">Learn More</string>
+    <string name="update">Update</string>
+    <string name="notify_me">Notify Me!</string>
+    <string name="update_me">Update Me!</string>
+    <string name="cancel_me">Cancel Me!</string>
+    <string name="notification_updated">Notification Updated!</string>
 
+    <!-- Button label for blue button -->
+    <string name="blue_button">Blue</string>
+
+    <!-- Button label for green button -->
+    <string name="green_button">Green</string>
+
+    <!-- Button label for red button -->
+    <string name="red_button">Red</string>
+
+    <!-- Button label for black button -->
+    <string name="black_button">Black</string>
+
+    <!-- Default string for count textview -->
+    <string name="default_count">0</string>
+
+    <!-- Button label for Count button -->
+    <string name="count_button">Count</string>
+
+    <!-- Button label for Reset button -->
+    <string name="reset_button">Reset</string>
 </resources>
